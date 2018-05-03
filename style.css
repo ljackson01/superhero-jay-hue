@@ -1,0 +1,228 @@
+html,body{
+  width:100%;
+  height: 100%;
+  line-height: 1.6;
+
+}
+body{
+  background-color: #263521;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: scroll;
+  background-image: url("photos/Artboard 1.png");
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15pt;
+  color: white;
+
+
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+.showhide{
+  display: block;
+  width: 60%;
+}
+
+.showhide .normalbio{
+  display: none;
+
+}
+
+.showhide .secretbio{
+  display: block;
+}
+
+.showhide:hover .normalbio{
+  display: block;
+  transition-duration: 10s;
+
+}
+
+.showhide:hover .secretbio{
+  display: none;
+  transition-duration: 10s;
+
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-bottom: 10%;
+}
+
+.bio{
+  display: flex;
+  padding-bottom: 200px;
+
+}
+
+.biophoto img{
+  height: auto;
+  width: 100%;
+}
+
+.biophoto {
+  height: auto;
+  width: 40%;
+  margin-right: 5%;
+
+}
+
+.originstoryphoto img{
+  height: auto;
+  width: 60%;
+  margin: 3%;
+  margin-top: -5%;
+}
+
+.origintext {
+  margin-left:67%;
+  margin-top: -45%;
+  padding-right: 25px;
+  padding-bottom: 100px;
+
+}
+
+.dcphoto img{
+  height: auto;
+  width:100%;
+}
+
+.dcphoto{
+  height: auto;
+  width:60%;
+  margin-left: 30%;
+  margin-top: -5%;
+}
+
+.dcphoto2 img{
+  height: auto;
+  width: 50%;
+}
+
+.dcphoto2{
+  height: auto;
+  width: 60%;
+  margin-left: 60%;
+  margin-top: -30%;
+}
+
+.dcphoto3 img{
+  height: auto;
+  width: 50%;
+
+}
+
+.dcphoto3{
+  height: auto;
+  width: 60%;
+  margin-left: 25%;
+  margin-top: -35%;
+  padding-bottom: 200px;
+}
+
+.DC{
+  margin-left: 3%;
+  padding-bottom: 300px;
+
+}
+
+.aenemyphoto img{
+  height:auto;
+  width:40%;
+
+}
+
+.aenemyphoto{
+  height: auto;
+  width: 80%;
+  margin-left: 55%;
+}
+
+.aenemystory{
+  width: 45%;
+  margin-top: -50%;
+  padding-bottom: 200px;
+}
+
+.weaknessphoto img{
+  height: auto;
+  width:90%;
+}
+
+.weaknessphoto{
+  height: auto;
+  width: 70%;
+  margin-top: -5%;
+
+  }
+
+.weaknessstory{
+  padding-bottom: 200px;
+  width: 30%;
+  margin-left: 65%;
+  margin-top: -45%;
+}
+
+.hideshow{
+  display: block;
+  width: 40%;
+  margin-top: -35%;
+  margin-left: 0%;
+  margin-right: 50%;
+  line-height: 1.6;
+  width: 25%;
+
+}
+
+.hideshow .normaldc{
+  display: none;
+
+}
+
+.hideshow .secretdc{
+  display: block;
+}
+
+.hideshow:hover .normaldc{
+  display: block;
+  transition-duration: 10s;
+
+}
+
+.hideshow:hover .secretdc{
+  display: none;
+  transition-duration: 10s;
+
+}
